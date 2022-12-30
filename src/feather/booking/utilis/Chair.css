@@ -1,0 +1,15 @@
+.chair {
+    margin: 5px;
+
+}
+
+.chair.booking {
+    background-color: yellow;
+    color: white;
+}
+
+.chair.booked {
+    background-color: red;
+    color: white;
+   
+}

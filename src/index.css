@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+
+   
+
+    header{
+        @apply p-4 bg-transparent text-white fixed left-0 top-0 z-10 w-full drop-shadow-md
+    }
+
+}

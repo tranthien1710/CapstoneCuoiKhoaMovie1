@@ -1,0 +1,20 @@
+@media screen and (max-width: 768px) {
+    #icon {
+        display: block;
+        cursor: pointer;
+    }
+    .group_navBar{
+        display: block;
+        position: fixed;
+        top: 100px;
+        left: -100vh;
+        transition: all 0.5s;
+    }
+    .group_navBar li{
+        padding: 10px;
+    }
+    .group_navBar.show{
+        left: 0;
+    }
+}
+
